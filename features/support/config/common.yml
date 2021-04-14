@@ -1,0 +1,7 @@
+environment:
+ prod:
+  url: 'https://www.bunnings.com.au'
+ staging:
+  url: 'https://staging.bunnings.com.au'
+ tst:
+  url: 'https://tst.bunnings.com.au'  
