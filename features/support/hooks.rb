@@ -12,11 +12,6 @@ After do |scenario|
   print_time_take_for_scenario
 end
 
-After do |scenario|
-  $user = nil
-  $password_reset_details = nil
-end
-
 def print_time_take_for_scenario
   p "Time taken to execute Scenario: #{@scenario_details} #{Time.now - @time}s"
 end
